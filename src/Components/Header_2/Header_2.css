@@ -1,0 +1,272 @@
+#header-two-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out .1s;
+}
+
+.header-two-container {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    transition: all ease-in-out .1s;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.header-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 76vw;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: all ease-in-out .1s;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.header-item {
+    display: inline;
+    margin: 7px 15px;
+    color: rgb(103, 103, 103);
+    transition: all ease-in-out .1s;
+    cursor: pointer;
+}
+.header-item i {
+    font-size: 22px;
+    transition: all ease-in-out .1s;
+}
+.header-item p {
+    margin-top: 3px;
+    font-size: 13px;
+    transition: all ease-in-out .1s;
+}
+.header-item:hover {
+    color: #000;
+    border-radius: 3px;
+    transform: translateY(-2px);
+}
+
+.header-two::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+.sort-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    transition: all ease-in-out .1s;
+    height: 9.9rem;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 11rem;
+}
+.sort, .filter {
+    display: flex;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all ease-in-out .1s;
+    margin-top: 0.6rem;
+}
+.sort i, .filter i {
+    margin: 6px;
+    margin-top: 3px;
+}
+.sort p, .filter p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.filter-box {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    z-index: 12;
+    position: fixed;
+    left: 22%;
+    height: 34rem;
+    width: 60vw;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    transition: all ease-in-out .3s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.filter-box::-webkit-scrollbar {
+    display: none;
+}
+.closeFilter {
+    z-index: 20;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 16px;
+    border-bottom: 1px solid lightgray;
+    background-color: rgb(243, 243, 243);
+    transition: all ease-in-out .4s;
+}
+.closeFilter i {
+    position: relative;
+    top: 12px;
+    left: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.closeFilter p {
+    margin-top: -15px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.filter-box h4 {
+    margin: 10px;
+    padding: 10px;
+    transition: all ease-in-out .3s;
+}
+.price-filter {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    transition: all ease-in-out .3s;
+}
+.price-filter input {
+    padding: 10px;
+    margin: 5px;
+    width: 43%;
+    border-radius: 6px;
+    border: 1px solid darkslategray;
+    transition: all ease-in-out .3s;
+}
+
+.type-filter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    transition: all ease-in-out .3s;
+}
+.type-filter input {
+    margin: 0 3px;
+    height: 18px;
+    width: 18px;
+}
+.type-filter-item {
+    margin: 0 20px;
+}
+
+
+.rooms-filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px;
+    transition: all ease-in-out .3s;
+}
+.rooms-filter p {
+    font-size: 18px;
+}
+.rooms-filter div {
+    margin-bottom: 10px;
+}
+.bedroom-type, .bed-type, .bathroom-type {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.bedroom-type p, .bed-type p, .bathroom-type p {
+    width: 70px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    border: 1px solid rgb(163, 163, 163);
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+.bedroom-type p:hover, .bed-type p:hover, .bathroom-type p:hover {
+    border: 1px solid rgb(39, 39, 39);
+}
+.bedroom-type p:checked, .bed-type p:checked, .bathroom-type p:checked {
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+
+
+.property-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.property-type div {
+    width: 22%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+.property-type div:hover {
+    border: 1px solid black;
+}
+.property-type div {
+    font-size: 24px;
+}
+.property-type div p {
+    margin-top: 15px;
+    margin-bottom: -5px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.filter-footer {
+    z-index: 20;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    border-top: 1px solid lightgray;
+    background-color: rgb(243, 243, 243);
+    transition: all ease-in-out .3s;
+}
+.filter-footer p {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+}
+.filter-footer button {
+    padding: 5px 15px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    transition: none;
+}
+.filter-footer button:hover {
+    background-color: #000;
+}

@@ -1,0 +1,32 @@
+.review {
+    display: inline;
+}
+
+.review .card {
+    width: 22rem;
+}
+
+.review .blockquote {
+    font-size: 16px;
+}
+
+.review .blockquote-footer {
+    margin-top: 0;
+}
+
+.review .star-container {
+    margin-top: -13px;
+    margin-bottom: 10px;
+}
+
+.review .star-container i {
+    font-size: 12px;
+    color: rgb(73, 73, 73);
+}
+
+.review .review-rating {
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 3px;
+    transition: all ease-in-out 1s;
+}

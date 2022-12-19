@@ -1,0 +1,64 @@
+.host{
+    scroll-behavior: smooth;
+}
+
+.host-right-ele{
+    cursor: pointer;
+    color:rgb(112, 111, 111);
+}
+
+.host-right-ele:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.host-nav{
+    position:sticky;
+    top: 0;
+}
+
+.host-animated-text{
+    font-size: 5vw;
+    font-weight: bolder;
+    text-align: center;
+    background: linear-gradient(to left,#008489,#a61d55,#ffb400);
+    background-size: 200% left;
+    background-clip: text;
+    color: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     
+    animation: shine 10s ease infinite;
+    -moz-animation: shine 10s ease infinite;
+    -webkit-animation: shine 10s ease infinite;
+}
+
+@keyframes shine {
+    to {
+      background-position: 200% right;
+    }
+  }
+
+
+.host-video{
+    width: 99vw;
+    z-index: -5;
+    background-size: cover;
+}
+
+.host-video video{
+    width: 100%;
+    height: 100%;
+}
+
+.host-content{
+    margin-bottom: 4%;
+    background:url(../../assets/host-back.jfif);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0;
+}
+
+.host-content-child{
+    margin-top: 5%;
+}

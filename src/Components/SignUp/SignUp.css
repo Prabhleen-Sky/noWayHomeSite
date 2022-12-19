@@ -1,0 +1,51 @@
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.signupForm{
+    display: flex;
+    justify-content: center;
+    background: white;
+    margin-left: 25%;
+    padding: 2%;
+    margin-top: 5%;
+    width: 50%;
+    border-radius: 2%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+form h3{
+    text-align: center;
+}
+
+.form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+  }
+
+  .custom-control-label {
+    font-weight: 400;
+  }
+
+  .forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}

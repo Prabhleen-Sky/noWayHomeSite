@@ -1,0 +1,144 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    height: 100%;
+    width: 100%;
+    color: rgb(41, 41, 106);
+    background-color: rgb(207, 208, 242);
+    transition: all ease-in-out .5s;
+    cursor: default;
+}
+
+.loading-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    transition: all ease-in-out .5s;
+    text-align: center;
+}
+
+
+.loading-animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@keyframes text-animation {
+    0% { color: rgb(41, 41, 106); }
+    50% { color: rgb(149, 149, 149); }
+    100% { color: rgb(41, 41, 106); }
+}
+.loading-h1 h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    transition: all ease-in-out .5s;
+    animation-name: text-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.loading-dots {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    transition: all ease-in-out .5s;
+    opacity: 1;
+}
+
+@keyframes dot1-animation {
+    0% { background-color: rgb(149, 149, 149); transform: translateY(-3px); }
+    50% { background-color: rgb(41, 41, 106); transform: translateY(0); }
+    100% { background-color: rgb(149, 149, 149); transform: translateY(-3px); }
+}
+.loading-dots div {
+    margin: 5px;
+    margin-top: 25px;
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 50%;
+    transition: all ease-in-out .5s;
+    background-color: rgb(149, 149, 149);
+}
+.dot1 {
+    opacity: 1;
+    animation-name: dot1-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.dot2 {
+    opacity: 1;
+    animation-name: dot1-animation;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+}
+.dot3 {
+    opacity: 1;
+    animation-name: dot1-animation;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.loading-quotes {
+    position: absolute;
+    color: rgb(106, 106, 106);
+    opacity: 1;
+    transition: all ease-in-out .5s;
+    text-align: center;
+}
+.loading-quotes-container p:nth-child(1) { font-family: 'Rubik Burned', cursive; top: 13%; left: 70%; }
+.loading-quotes-container p:nth-child(2) { font-family: 'Rubik Maze', cursive; top: 50%; left: 8%; }
+.loading-quotes-container p:nth-child(3) { font-family: 'Lato', sans-serif; top: 66%; left: 40%; }
+.loading-quotes-container p:nth-child(4) { font-family: 'Oswald', sans-serif; top: 29%; left: 28%; }
+.loading-quotes-container p:nth-child(5) { font-family: 'Roboto Slab', serif; top: 77%; left: 86%; }
+.loading-quotes-container p:nth-child(6) { font-family: 'Roboto Mono', monospace; top: 9%; left: 14%; }
+.loading-quotes-container p:nth-child(7) { font-family: 'Silkscreen', cursive; top: 40%; left: 74%; }
+.loading-quotes-container p:nth-child(8) { font-family: 'Rubik Dirt', cursive; top: 76%; left: 5%; }
+
+
+#continue {
+    opacity: 0;
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: rgb(227, 227, 227);
+    transition: all ease-in-out .5s;
+}
+
+
+
+
+.loader-container {
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    height: 10px;
+    width: 100%;
+    transition: all ease-in-out .1s;
+}
+.loader {
+    width: 0%;
+    height: 30px;
+    background-color: rgb(41, 41, 106);
+}

@@ -1,0 +1,127 @@
+.SearchRegionS{
+    width: 35%;
+    border-radius: 15%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-left: 13%;
+    text-align: center;
+    margin-top: 1.5%;
+    padding: 2%;
+    transition: all ease-in-out .1s;
+}
+
+.regionEle{
+    width: 33%;
+    padding: 1%;
+    transition: all ease-in-out .1s;
+}
+
+.regionEle img:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.regionEle img{
+    width: 100%;
+    border-radius: 15px;
+    transition: all ease-in-out .1s;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .SearchRegionS{
+        width: 55%;
+        border-radius: 15%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        margin-left: 13%;
+        text-align: center;
+        margin-top: 1.5%;
+        padding: 2%;
+    }
+
+    .SearchRegionS h6{
+        font-size: 20px;
+    }
+
+    .regionEle p{
+        font-size: 13px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .SearchRegionS{
+        width: 50%;
+        border-radius: 15%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        margin-left: 13%;
+        text-align: center;
+        margin-top: 1.5%;
+        padding: 2%;
+    }
+
+    .SearchRegionS h6{
+        font-size: 20px;
+    }
+
+    .regionEle p{
+        font-size: 15px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .SearchRegionS{
+        width: 52%;
+        border-radius: 15%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        margin-left: 13%;
+        text-align: center;
+        margin-top: 1.5%;
+        padding: 2%;
+    }
+
+    .SearchRegionS h6{
+        font-size: 16px;
+    }
+
+    .regionEle p{
+        font-size: 15px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .SearchRegionS{
+        width: 36%;
+        border-radius: 15%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        margin-left: 13%;
+        text-align: center;
+        margin-top: 1.5%;
+        padding: 2%;
+    }
+
+    .SearchRegionS h6{
+        font-size: 16px;
+    }
+
+    .regionEle p{
+        font-size: 15px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .SearchRegionS{
+        width: 35%;
+        border-radius: 15%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        margin-left: 13%;
+        text-align: center;
+        margin-top: 1.5%;
+        padding: 2%;
+    }
+
+    .SearchRegionS h6{
+        font-size: 18px;
+    }
+
+    .regionEle p{
+        font-size: 15px;
+    }
+}

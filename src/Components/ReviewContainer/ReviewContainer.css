@@ -1,0 +1,19 @@
+.review-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 87vw;
+    margin: 20px;
+    padding: 20px;
+    transition: all ease-in-out .1s;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: -30px;
+    box-shadow: rgba(0, 0, 0, 0.35) -40px 0px 66px -58px inset;
+    border-radius: 12px;
+}
+
+.review-container::-webkit-scrollbar { 
+    display: none;
+}

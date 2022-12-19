@@ -1,0 +1,188 @@
+.guestSection{
+    width: 30%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-left: 55%;
+    margin-top: 1%;
+    padding: 1%;
+    border-radius: 35px;
+    transition: all ease-in-out .1s;
+}
+
+.guestEle{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 15px;
+    transition: all ease-in-out .1s;
+}
+
+.guestEle .left span{
+    color: gray;
+    font-size: 14px;
+    transition: all ease-in-out .1s;
+}
+
+.guestEle .right span i{
+    color: grey;
+    font-size: 1.25em;
+    cursor: pointer;
+    transition: all ease-in-out .1s;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .guestSection{
+        width: 55%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        margin-left: 22%;
+        margin-top: 2%;
+        padding: 1%;
+        border-radius: 35px;
+    }
+    
+    .guestEle{
+        display: flex;
+        justify-content: space-between;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        margin: 1%;
+        padding: 2%;
+        border-radius: 15px;
+    }
+    
+    .guestEle .left span{
+        color: gray;
+        font-size: 13.5px;
+    }
+    
+    .guestEle .right span i{
+        color: grey;
+        font-size: 1.25em;
+        cursor: pointer;;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .guestSection{
+        width: 45%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        margin-left: 25%;
+        margin-top: 2%;
+        padding: 1%;
+        border-radius: 35px;
+    }
+    
+    .guestEle{
+        display: flex;
+        justify-content: space-between;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        margin: 1%;
+        padding: 2%;
+        border-radius: 15px;
+    }
+    
+    .guestEle .left span{
+        color: gray;
+        font-size: 15px;
+    }
+    
+    .guestEle .right span i{
+        color: grey;
+        font-size: 1.25em;
+        cursor: pointer;;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .guestSection{
+        width: 44%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        margin-left: 29%;
+        margin-top: 2%;
+        padding: 1%;
+        border-radius: 35px;
+    }
+    
+    .guestEle{
+        display: flex;
+        justify-content: space-between;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        margin: 1%;
+        padding: 2%;
+        border-radius: 15px;
+    }
+    
+    .guestEle .left span{
+        color: gray;
+        font-size: 15px;
+    }
+    
+    .guestEle .right span i{
+        color: grey;
+        font-size: 1.25em;
+        cursor: pointer;;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .guestSection{
+        width: 35%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        margin-left: 38%;
+        margin-top: 2%;
+        padding: 1%;
+        border-radius: 35px;
+    }
+    
+    .guestEle{
+        display: flex;
+        justify-content: space-between;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        margin: 1%;
+        padding: 2%;
+        border-radius: 15px;
+    }
+    
+    .guestEle .left span{
+        color: gray;
+        font-size: 15px;
+    }
+    
+    .guestEle .right span i{
+        color: grey;
+        font-size: 1.25em;
+        cursor: pointer;;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .guestSection{
+        width: 30%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        margin-left: 55%;
+        margin-top: 1%;
+        padding: 1%;
+        border-radius: 35px;
+    }
+    
+    .guestEle{
+        display: flex;
+        justify-content: space-between;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        margin: 1%;
+        padding: 2%;
+        border-radius: 15px;
+    }
+    
+    .guestEle .left span{
+        color: gray;
+        font-size: 14px;
+    }
+    
+    .guestEle .right span i{
+        color: grey;
+        font-size: 1.25em;
+        cursor: pointer;;
+    }
+}

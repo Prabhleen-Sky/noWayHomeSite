@@ -1,0 +1,88 @@
+.parent {
+    z-index: 90;
+    position: absolute;
+    margin-top: 160px;
+}
+
+.my-navbar {
+    background-color: #000;
+    position: fixed;
+    left: -200px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: all ease-in-out .3s;
+}
+
+.my-navbar ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.my-navbar ul li {
+    display: block;
+    color: rgb(134, 134, 134);
+    padding: 10px;
+    margin: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    list-style-type: none;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all ease-in-out .3s;
+}
+.my-navbar ul li:hover {
+    border-radius: 20px;
+    background-color: rgb(220, 239, 255);
+}
+.my-navbar ul li:hover > .my-navbar ul li span {
+    color: rgb(0, 60, 255);
+}
+
+.my-navbar ul li i {
+    margin-right: 7px;
+}
+
+
+
+
+/* menu icon */
+.menu {
+    left: -190px;
+    position: fixed;
+    height: 35px;
+    width: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 170px;
+    transition: all ease-in-out .3s;
+}
+.menu div {
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: #000;
+    transition: all ease-in-out .3s;
+}
+.menu .menu-bar-1 {
+    margin-top: 10px;
+    transform: rotate(30deg);
+}
+.menu .menu-bar-2 {
+    margin-top: 25px;
+    transform: rotate(-30deg);
+}
+
+
+@keyframes ham-menu {
+    0% { transform: translateX(0px); }
+    50% { transform: translateX(5px); }
+}
+.menu:hover {
+    animation-name: ham-menu;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
