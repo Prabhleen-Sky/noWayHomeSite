@@ -7,7 +7,7 @@ const http = require('http');
 
 //define a port
 // process is a predefined file/class
-const PORT = 5000 || process.env.PORT;
+const PORT = process.env.PORT || 5000;
 
 //calling app which is responsible for managing request and responses
 const app = require('./app');

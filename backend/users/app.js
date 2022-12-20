@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 app.use(cors());
 
+const homeRoute = require('./api/routes/home')
 const loginRoute = require('./api/routes/login')
 const signupRoute = require('./api/routes/signup')
 
@@ -31,6 +32,7 @@ mongoose.connect('mongodb+srv://prabhleen:Sky1111@cluster0.nmqfc35.mongodb.net/l
 
 // managing routes
 // syntax -> app.use( 'path', nameOfFile)
+app.use('/',homeRoute)
 app.use('/users/login', loginRoute)
 app.use('/users/signup', signupRoute)
 
